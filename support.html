@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객 지원 - TT</title>
+    <style>
+        :root {
+            --bg-primary: #0A0A0B;
+            --bg-secondary: #141416;
+            --text-primary: #FFFFFF;
+            --text-secondary: #A1A1AA;
+            --text-tertiary: #71717A;
+            --accent: #C9FF47;
+            --border: rgba(255, 255, 255, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: var(--accent);
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: var(--text-tertiary);
+            font-size: 14px;
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .intro {
+            background-color: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border);
+        }
+
+        .intro p {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .card {
+            background-color: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border);
+        }
+
+        .card h3 {
+            color: var(--text-primary);
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .faq-item {
+            background-color: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .faq-item .question {
+            color: var(--text-primary);
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .faq-item .answer {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            color: var(--text-tertiary);
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: var(--text-tertiary);
+        }
+    </style>
+</head>
+<body>
+    <h1>고객 지원</h1>
+    <p class="subtitle">TT - 함께 달리는 러닝 트래커</p>
+
+    <div class="intro">
+        <p>TT를 이용해 주셔서 감사해요. 궁금한 점이나 문제가 있으시면 아래 방법으로 연락해 주세요.</p>
+    </div>
+
+    <h2>문의하기</h2>
+
+    <div class="card">
+        <h3>📧 이메일 문의</h3>
+        <p><a href="mailto:ttrun.official@gmail.com">ttrun.official@gmail.com</a></p>
+        <p>영업일 기준 1~2일 이내 답변드려요.</p>
+    </div>
+
+    <h2>자주 묻는 질문</h2>
+
+    <div class="faq-item">
+        <p class="question">Q. Apple Watch 데이터가 동기화되지 않아요</p>
+        <p class="answer">설정 → 건강 앱 동기화에서 HealthKit 권한을 허용해 주세요. 권한 허용 후 동기화 버튼을 눌러주시면 Apple Watch 러닝 데이터가 자동으로 불러와져요.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="question">Q. GPS 러닝 기록이 정확하지 않아요</p>
+        <p class="answer">위치 권한이 '항상 허용'으로 설정되어 있는지 확인해 주세요. 건물 밀집 지역에서는 GPS 정확도가 다소 떨어질 수 있어요.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="question">Q. 계정을 삭제하고 싶어요</p>
+        <p class="answer">앱 내 설정 → 계정 관리에서 탈퇴할 수 있어요. 탈퇴 시 모든 데이터가 삭제되며 복구할 수 없으니 신중하게 결정해 주세요.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="question">Q. 크루에 가입하려면 어떻게 하나요?</p>
+        <p class="answer">홈 화면 하단 크루 탭에서 공개 크루를 검색하거나, 초대 코드로 비공개 크루에 가입할 수 있어요.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="question">Q. AI 코칭은 유료인가요?</p>
+        <p class="answer">기본 분석 기능은 무료예요. 상세 AI 코칭은 광고를 시청하면 무료로 이용할 수 있어요.</p>
+    </div>
+
+    <h2>앱 정보</h2>
+
+    <div class="card">
+        <h3>TT</h3>
+        <p>버전: 1.0.0</p>
+        <p>최소 요구사양: iOS 15.1 이상</p>
+        <p>개발: TT Team</p>
+    </div>
+
+    <div class="footer">
+        <p>
+            <a href="./privacy-policy.html">개인정보 처리방침</a> ·
+            <a href="./terms-of-service.html">이용약관</a>
+        </p>
+        <p style="margin-top: 8px;">&copy; 2026 TT. All rights reserved.</p>
+    </div>
+</body>
+</html>
